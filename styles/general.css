@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  width: 86%;
+}

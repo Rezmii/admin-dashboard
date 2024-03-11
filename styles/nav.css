@@ -1,0 +1,7 @@
+nav {
+  background-color: lightgreen;
+  width: 14%;
+  display: grid;
+  grid-template-rows: 100px 200px 1fr;
+  grid-template-columns: 1fr;
+}

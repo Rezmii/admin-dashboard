@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightcoral;
+  height: 80vh;
+  padding: 25px 15px;
+  box-sizing: border-box;
+}
+
+/*Your Projects*/
+.your-projects-div {
+  width: 70%;
+}
+
+.your-projects-div p {
+  padding-bottom: 5px;
+}
+.projects-grid-div {
+  height: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-element {
+  background-color: lightblue;
+}
+
+/*Right section of main*/
+.right-section-div {
+  display: flex;
+  flex-direction: column;
+  gap: 50%;
+  width: 30%;
+  margin-left: 40px;
+}
+
+.announcments-div {
+  text-align: left;
+}
