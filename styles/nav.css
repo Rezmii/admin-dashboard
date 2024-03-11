@@ -2,6 +2,37 @@ nav {
   background-color: lightgreen;
   width: 14%;
   display: grid;
-  grid-template-rows: 100px 200px 1fr;
+  grid-template-rows: 100px 1fr 1fr;
   grid-template-columns: 1fr;
+  color: white;
+}
+
+.dashboard-icon {
+  width: 1.8em;
+}
+
+.dashboard-icon-div,
+.icons-div {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  gap: 5px;
+}
+
+.dashboard-icon-div p {
+  font-size: 1.4em;
+}
+
+.nav-icons-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.icons-div p {
+  font-size: 0.9em;
+}
+
+.icons-div img {
+  width: 1.5em;
 }
