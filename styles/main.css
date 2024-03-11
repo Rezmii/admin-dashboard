@@ -1,8 +1,8 @@
 main {
   display: flex;
   justify-content: space-between;
-  background-color: lightcoral;
-  height: 80vh;
+  background-color: rgb(221, 221, 221);
+  height: 75vh;
   padding: 25px 15px;
   box-sizing: border-box;
 }

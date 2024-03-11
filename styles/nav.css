@@ -1,5 +1,5 @@
 nav {
-  background-color: lightgreen;
+  background-color: rgb(81, 172, 233);
   width: 14%;
   display: grid;
   grid-template-rows: 100px 1fr 1fr;

@@ -5,8 +5,10 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-p {
+p,
+button {
   margin: 0;
+  font-family: "Oswald", sans-serif;
 }
 
 section {
