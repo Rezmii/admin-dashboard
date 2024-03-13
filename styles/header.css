@@ -3,8 +3,11 @@ header {
   flex-direction: column;
   background-color: white;
   box-sizing: border-box;
-  height: 25vh; /* Adjust the margin as needed */
-  border-bottom: 2px solid rgba(0, 0, 0, 0.4); /* Add border here */
+  height: 25vh;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  position: fixed;
+  width: 86%;
+  z-index: 1000;
 }
 
 .top-header,

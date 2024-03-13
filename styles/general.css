@@ -13,4 +13,6 @@ button {
 
 section {
   width: 86%;
+  position: relative;
+  left: 14%;
 }

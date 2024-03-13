@@ -5,6 +5,8 @@ nav {
   grid-template-rows: 100px 1fr 1fr;
   grid-template-columns: 1fr;
   color: white;
+  position: fixed;
+  height: 100vh;
 }
 
 .dashboard-icon {
