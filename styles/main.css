@@ -14,7 +14,9 @@ main {
   width: 70%;
 }
 
-.your-projects-div p {
+.your-projects-div p,
+.announcments-div p,
+.trending-div p {
   padding-bottom: 5px;
 }
 .projects-grid-div {
@@ -52,11 +54,53 @@ main {
 .right-section-div {
   display: flex;
   flex-direction: column;
-  gap: 50%;
   width: 30%;
   margin-left: 40px;
 }
-
+/* announcments*/
 .announcments-div {
   text-align: left;
+}
+
+.table-div,
+.trending-table-div {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 2px 8px rgb(85, 84, 84);
+  height: 50%;
+  overflow: auto;
+}
+
+.table-div {
+  padding: 25px;
+}
+
+.table-div div p {
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.table-div div p:not(:first-child),
+.your-projects-div p:not(:first-child) {
+  color: rgb(75, 75, 75);
+}
+
+/*trending*/
+.trending-div {
+  margin-top: -40px;
+}
+
+.trending-table-div {
+}
+
+.trending-profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 15px 0 15px;
+}
+
+.trending-profile-img {
+  width: 50px;
+  border-radius: 50%;
 }
