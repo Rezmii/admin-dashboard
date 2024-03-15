@@ -1,6 +1,6 @@
 nav {
   background-color: rgb(81, 172, 233);
-  width: 14%;
+  width: 10%;
   display: grid;
   grid-template-rows: 100px 1fr 1fr;
   grid-template-columns: 1fr;
@@ -10,7 +10,7 @@ nav {
 }
 
 .dashboard-icon {
-  width: 1.8em;
+  width: 2em;
 }
 
 .dashboard-icon-div,
@@ -22,19 +22,43 @@ nav {
 }
 
 .dashboard-icon-div p {
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 .nav-icons-div {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
 }
 
 .icons-div p {
-  font-size: 0.9em;
+  font-size: 1.3em;
 }
 
 .icons-div img {
-  width: 1.5em;
+  width: 1.9em;
+}
+
+@media (max-width: 1400px) {
+  .dashboard-icon {
+    width: 1.2em;
+  }
+  .dashboard-icon-div p {
+    font-size: 1.2em;
+  }
+  .icons-div p {
+    font-size: 0.9em;
+  }
+
+  .icons-div img {
+    width: 1.5em;
+  }
+
+  .nav-icons-div {
+    gap: 20px;
+  }
+
+  .nav-icons-div + .nav-icons-div {
+    margin-top: 70px;
+  }
 }

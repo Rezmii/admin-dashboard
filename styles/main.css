@@ -2,11 +2,9 @@ main {
   display: flex;
   justify-content: space-between;
   background-color: rgb(221, 221, 221);
-  height: 75vh;
   padding: 25px 15px;
-  box-sizing: border-box;
-  height: auto;
-  margin-top: 25vh;
+  margin-top: 180px;
+  height: 100%;
 }
 
 /*Your Projects*/
@@ -18,13 +16,15 @@ main {
 .announcments-div p,
 .trending-div p {
   padding-bottom: 5px;
+  font-size: 1.2em;
 }
+
 .projects-grid-div {
   height: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 20px;
+  grid-template-rows: auto;
+  gap: 30px;
 }
 
 .grid-element {
@@ -37,6 +37,7 @@ main {
   flex-direction: column;
   padding-top: 10px;
   padding-left: 15px;
+  height: 100%;
 }
 
 .grid-element div {
@@ -103,4 +104,19 @@ main {
 .trending-profile-img {
   width: 50px;
   border-radius: 50%;
+}
+
+@media (max-width: 1400px) {
+  main {
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .announcments-div {
+    height: 40%;
+  }
+  .trending-div {
+    height: 60%;
+  }
 }
