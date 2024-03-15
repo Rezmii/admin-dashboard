@@ -23,6 +23,10 @@ header {
   margin-bottom: 15px;
 }
 
+.bot-header {
+  padding-bottom: 45px;
+}
+
 .search-bar-div {
   display: flex;
   padding: 25px 0;
@@ -31,7 +35,7 @@ header {
 
 /*Search icon section*/
 .search-icon-img {
-  width: 1.5em;
+  width: 1.3em;
 }
 
 #search-bar {
@@ -40,6 +44,8 @@ header {
   border: none;
   background-color: rgb(221, 221, 221);
   border-radius: 15px;
+  padding: 3px 15px;
+  font-size: 1.5em;
 }
 
 /*User profile section*/
@@ -88,7 +94,7 @@ header {
 }
 
 .user-buttons-div button {
-  width: 80px;
+  width: 120px;
   padding: 4px 0;
   text-align: center;
   font-size: 0.9em;
@@ -106,6 +112,10 @@ header {
   }
   .user-profile-img2 {
     width: 2.5em;
+  }
+
+  .user-buttons-div button {
+    width: 80px;
   }
 }
 

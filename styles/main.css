@@ -73,7 +73,7 @@ main {
 }
 
 .table-div {
-  padding: 25px;
+  padding: 25px 25px 20px 25px;
 }
 
 .table-div div p {
@@ -89,9 +89,6 @@ main {
 /*trending*/
 .trending-div {
   margin-top: -40px;
-}
-
-.trending-table-div {
 }
 
 .trending-profile {
